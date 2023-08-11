@@ -1,0 +1,21 @@
+{% extends 'dummy.html' %}
+
+{% block title %}
+    <title>display page</title>
+{% endblock %}
+
+{% block body_block %}
+
+<center>
+    <h1>display_details</h1>
+    <h2>username is {{UO.username}}</h2>
+    <h2>usermail is {{UO.email}}</h2>
+    <h2>address is {{PO.address}}</address></h2>
+    <h2>profile_pic is</h2>
+    Profile_pic=models.ImageField()
+    Profile_pic=models.ImageField()
+    Profile_pic=models.ImageField()
+    <img src="{{PO.Profile_pic.url}}" alt="not display profile pic" srcset="" height="300px" width="300px"
+
+    {% endblock %}
+</center>
